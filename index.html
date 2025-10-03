@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Simple Interest Calculator")
+        function interestcalculater(){
+        let money= prompt("enter your amount of money you borrowed");
+        money = Number(money);
+        let rateofinterest= prompt("enter your rate of interest");
+        rateofinterest = Number(rateofinterest);
+        let time= prompt("enter your time");
+        time = Number(time);
+        const calculate = (money * rateofinterest * time) /100;
+        return calculate;
+    }
+    const result = interestcalculater();
+    alert(result)
+
+
+
+    </script>
+</body>
+</html>
